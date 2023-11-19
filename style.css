@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.kapsayici {
+  display: grid;
+  grid-template-columns: 80px 1fr 100px;
+  align-items: center;
+  gap: 20px;
+}
+.grafik {
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.oran {
+  height: inherit;
+  width: 20%;
+  background-color: hotpink;
+}
