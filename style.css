@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 80px 1fr 100px;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
 .grafik {
   border: 1px solid black;
@@ -17,6 +17,5 @@
 }
 .oran {
   height: inherit;
-  width: 20%;
   background-color: hotpink;
 }
